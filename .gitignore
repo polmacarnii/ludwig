@@ -1,0 +1,6 @@
+dataset/*
+.venv/
+__pycache__/ 
+src/__init__.py
+src/__pycache__/
+checkpoint/*.pt

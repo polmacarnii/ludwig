@@ -1,0 +1,2 @@
+#!/bin/sh
+tcc lsd.c -o lsd -lm
