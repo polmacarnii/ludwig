@@ -1,6 +1,14 @@
 # Ludwig
 AI model for "undo" the low-pass filter(with 4kHz cut). Ludwig can also work for bad recordings
 
+Well lets say Ludwig was not good as I wanted to, so this repo is more an "archive" of what I was trying to do rather than a functional project
+## Example on a "bad" recording
+Input
+[Input](./test/input.wav)
+
+Output:
+[Output](./test/output.wav)
+
 ## How to use
 ### Get a copy of the project
 ```sh
@@ -8,6 +16,8 @@ git clone https://github.com/polmacarnii/ludwig.git
 cd ludwig
 ```
 
+Now you need to train it, or you can download a pre-trained model too on releases
+## Training
 ### Get the dataset
 The dataset could be, from example, your ~/Music directory
 > [!NOTE]
@@ -44,6 +54,7 @@ Checkpoint is stored at checkpoint/last.pt and checkpoint/best.pt.
 > [!NOTE]
 > You can use "--resume checkpoint/last.pt" to continue
 
+## Usage
 ### Reconstruct a file
 Once you have a trained checkpoint:
 ```sh
