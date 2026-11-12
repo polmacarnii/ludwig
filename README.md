@@ -3,11 +3,9 @@ AI model for "undo" the low-pass filter(with 4kHz cut). Ludwig can also work for
 
 Well lets say Ludwig was not good as I wanted to, so this repo is more an "archive" of what I was trying to do rather than a functional project
 ## Example on a "bad" recording
-Input
-[Input](./test/input.wav)
+[Input](https://github.com/polmacarnii/ludwig/raw/refs/heads/main/test/input.wav)
 
-Output:
-[Output](./test/output.wav)
+[Output](https://github.com/polmacarnii/ludwig/raw/refs/heads/main/test/output.wav)
 
 ## How to use
 ### Get a copy of the project
